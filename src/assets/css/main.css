@@ -14,12 +14,30 @@
 /* .btn-primary {
     background-color: #E9F9F4;
 } */
-.card-product {
+.card-product,
+.img-detail {
     border-radius: 15px;
 }
 
 .card-product .card-img-top {
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
+}
 
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+}
+
+.breadcrumb .breadcrumb-item a {
+    color: #000;
+}
+
+.breadcrumb .breadcrumb-item a:hover {
+    text-decoration: none;
+}
+
+.breadcrumb .breadcrumb-item.active {
+    font-weight: bold;
+    color: #000;
 }

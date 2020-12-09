@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="foods">
     <Navbar />
     <div class="container">
       <div class="row mt-4">
